@@ -1,5 +1,5 @@
-
-let abecedario=['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'ñ']
+let abecedario=['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
+ 'l', 'm', 'n', 'ñ']
 let conteo=abecedario.length
 
 for (let index = 0; index < conteo; index++) {
@@ -7,7 +7,9 @@ for (let index = 0; index < conteo; index++) {
 
 }
 
-let colores=['azul', 'verde', 'cafe', 'rosado', 'violeta', 'amarillo', 'negro', 'blanco', 'naranja', 'gris', 'morado', 'marron', 'cian', 'beach', 'fucsia']
+let colores=['azul', 'verde', 'cafe', 'rosado', 'violeta', 'amarillo',
+ 'negro', 'blanco', 'naranja', 'gris', 'morado', 'marron', 'cian',
+  'beach', 'fucsia']
 let cantidad=colores.length
 
 for (let index = 0; index < cantidad; index++) {
@@ -24,7 +26,7 @@ let casa = [
     },
     {
         "color_muebles":"azul",
-        "electrodomesticos":"",
+        "electrodomesticos":"microondas",
         "compra": new Date('2010-03-03'),
         "viven":5
     }
@@ -35,4 +37,3 @@ for (let index = 0; index < objetos; index++) {
     document.write(casa[index].color_muebles+'<br>')
     
 }
-
